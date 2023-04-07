@@ -6,7 +6,7 @@
     stages {
         stage ("Build Docker Image"){
             steps{
-                sh "docker build . -t vishalsaxena29/NodeApp:${DOCKER_TAG}"
+                sh "docker build . -t vishalsaxena29/nodeApp:${DOCKER_TAG}"
             }
         }
     }
