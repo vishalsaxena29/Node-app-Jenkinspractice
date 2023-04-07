@@ -9,21 +9,6 @@
                 sh "docker build -t vishalsaxena29/NodeApp:${DOCKER_TAG}"
             }
         }
-        stage ("Git Clone"){
-            steps{
-                
-            }
-        }
-        stage ("Git Clone"){
-            steps{
-                
-            }
-        }
-        stage ("Git Clone"){
-            steps{
-                
-            }
-        }
     }
  }
 
